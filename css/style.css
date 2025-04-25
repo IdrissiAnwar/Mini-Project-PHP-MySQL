@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); 
+
+.body-home, .body-login {
+    background: url(../images/EST-Salé.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.black-fill {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 100vh;
+}
+#homeNav {
+    background: rgba(255, 255, 255, 0.5) !important;
+}
+.Welcome-text {
+    min-height: 70vh;
+}
+.Welcome-text img{
+    width: 100px;
+}
+.Welcome-text h4{
+    color: #eee;
+    font-size: 50px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.Welcome-text p {
+    color: #222;
+    font-size: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 5px;
+    border-radius: 4px;
+}
+.login {
+    max-width: 500px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.5);
+}
+.login h3{
+    text-align: center;
+    font-size: 25px;
+}
+
